@@ -1,32 +1,30 @@
-# Prerequisites
-*.d
+# Add any directories, files, or patterns you don't want to be tracked by version control
 
-# Compiled Object files
-*.slo
-*.lo
+*.log
+
+# Ignore VIM temp files:
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+# Obj. files
 *.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+obj/
+instances/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Session
+Session.vim
 
-# Fortran module files
-*.mod
-*.smod
+# Temporary
+*~
+# Auto-generated tag files
+tags
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Generated executable
+ants-tpp
 
-# Executables
-*.exe
-*.out
-*.app
+# Profiler output
+gmon.out
